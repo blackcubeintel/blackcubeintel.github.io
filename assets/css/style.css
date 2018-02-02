@@ -136,7 +136,6 @@
 	-o-animation: timing_background 20s infinite ;
 	-o-animation-delay: 1000ms;
 	transition: all .5s ease;
-	background: url('../img/pre-logo.png') no-repeat center #ff0000;
  }
  
  @-webkit-keyframes timing_background {
