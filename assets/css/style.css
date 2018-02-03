@@ -1024,8 +1024,12 @@ button {
         -moz-transition: opacity 400ms ease-in;
         transition: opacity 400ms ease-in;
         pointer-events: none;
+    	overflow-y: auto;
     }
+.modalDialog h1 {
 
+    	margin: 0px 0 0px 0;
+    }
     .modalDialog:target {
         opacity:1;
         pointer-events: auto;
